@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--<meta charset="iso-8859-1">-->
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="scripts/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="scripts/jsxgraph.css" />
+
+    <script type="text/javascript" src="scripts/jsxgraphcore.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div id="box0" class="jxgbox" style="width:360px; height:360px;"></div> 
+        &nbsp;
+        <div id="box1" class="jxgbox" style="width:360px; height:360px;"></div>
+        &nbsp;
+        <button class="assign btn btn-light" type="button" name="button" id= "" onclick="redraw()">Plot Series</button>
+      </div>
+      &nbsp;
+      <div id="box2" class="jxgbox" style="width:720px; height:360px;"></div>
+    </div>
+
+    
+
+    <div class="container animated">
+      <div class = "form-group">
+
+        <div class="page">
+         <label for="function">Expression:</label>
+         <input type="text" name ="function" id="function"></input>
+          <br>
+          <br>
+          <button  class="assign btn btn-light" type="button" name="button" id= "calculate" onclick="getIntegration()">Calculate</button>
+          <br>
+          <br>
+          
+          <label for="name" type="text" name="" value="" id="">Result:</div>
+          <div id="result"></div>
+          
+        </div>
+      
+      </div>
+
+    </div>
+
+
+  </body>
+  <script type="text/javascript"src="scripts/graph.js"></script>
+  <script src="scripts/script.js"> </script>
+</html>
