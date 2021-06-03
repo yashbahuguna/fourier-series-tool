@@ -1,2 +1,2 @@
 # fourier-series-tool
-javascript application for calculating and analysing fourier series.
+Python-flask application for calculating and analysing fourier series approximations.
